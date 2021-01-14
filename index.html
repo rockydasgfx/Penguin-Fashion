@@ -25,20 +25,20 @@
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
                 <div class="navbar-nav ">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Product</a>
-                    <a class="nav-link" href="#">About us</a>
-                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Contact us</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link" href="#Product">Product</a>
+                    <a class="nav-link" href="#About-us">About us</a>
+                    <a class="nav-link" href="#contect-us" >Contact us</a>
                 </div>
             </div>
         </div>
     </nav>
-    <section>
+    <section id="home">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active d-flex align-items-center">
+                <div class="carousel-item active row d-flex align-items-center">
 
                     <div class="col-md-5 ">
                         <img src="images/Group 33092.png" class="d-block w-100" alt="...">
@@ -49,7 +49,7 @@
                         </h1>
                         <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</P>
                         <button type="button" class="btn btn-primary btn-lg"><img
-                                src="images/Logo, Icon/shopping-cart 1.png" width="30px"> BUY NOW<button>
+                                src="images/Logo, Icon/shopping-cart 1.png" width="30px">BUY NOW</button>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
     </section>
 
     </header>
-    <main class="container">
+    <main id="Product"class="container">
 
         <h2 style="font-family: 'Bebas Neue', cursive; font-size: 50px;" class="mt-5">CASUAL SHOES</h2>
         <section class="row row-cols-1 row-cols-md-3 g-4 mt-5">
@@ -145,17 +145,57 @@
                 </div>
             </div>
         </section>
-        <section style="margin-top: 30px;" class="mt-5">
+        <div id="About-us"class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+            <div class="col  ">
+                <div class="card h-100">
+                 
+                  <div class="card-body ">
+                    <h2 style="font-size: 50px;" class="card-title align-middle">138,098</h2>
+                    <p style="font-size: 20px;"class="card-text">Shoes Collections</p>
+                  </div>
+                  
+                </div>
+              </div>
+            <div class="col">
+              <div class="card h-100">
+               
+                <div class="card-body">
+                  <h2 style="font-size: 50px;" class="card-title">138,098</h2>
+                  <p style="font-size: 20px;"class="card-text">Happy Customers</p>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                 
+                  <div class="card-body">
+                    <h2 style="font-size: 50px;" class="card-title">1,269</h2>
+                    <p style="font-size: 20px;"class="card-text">Our Store Around the World</p>
+                  </div>
+                  
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+        <section id="contect-us" style="margin-top: 30px;" class="mt-5">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active d-flex align-items-center">
+                    <div class="carousel-item active row d-flex align-items-center">
                         <div class="col-md-5 ">
                             <button type="button" class="btn btn-outline-info ">
                                 <div class="d-flex align-items-center">
                                     <img width="78px" height="82px" src="images/Logo, Icon/image 12.png" alt="">
                                     <div>
-                                        <h4 style="text-align: left;">Find the Perfect Fit</h4>
-                                        <p style="text-align: justify;">Everybody is different, which is why we offer
+                                        <h4 style="text-align: left; border-radius: 10px; color: #363958;">Find the Perfect Fit</h4>
+                                        <p style="text-align: justify; border-radius: 10px; color: #363958;">Everybody is different, which is why we offer
                                             styles for every body.</p>
                                     </div>
                                 </div>
@@ -164,8 +204,8 @@
                                 <div class="d-flex align-items-center">
                                     <img width="78px" height="82px" src="images/Logo, Icon/image 13.png" alt="">
                                     <div>
-                                        <h4 style="text-align: left;">Free Exchanges</h4>
-                                        <p style="text-align: justify;">One of the many reasons you can shop with peace
+                                        <h4 style="text-align: left; border-radius: 10px; color: #363958;">Free Exchanges</h4>
+                                        <p style="text-align: justify; border-radius: 10px; color: #363958;">One of the many reasons you can shop with peace
                                             of mind</p>
                                     </div>
                                 </div>
@@ -174,8 +214,8 @@
                                 <div class="d-flex align-items-center">
                                     <img width="78px" height="82px" src="images/Logo, Icon/image 14.png" alt="">
                                     <div>
-                                        <h4 style="text-align: left;">Contact Our Seller</h4>
-                                        <p style="text-align: justify;">They are here to help you. That's quite
+                                        <h4 style="text-align: left; border-radius: 10px; color: #363958;">Contact Our Seller</h4>
+                                        <p style="text-align: justify; border-radius: 10px; color: #363958;">They are here to help you. That's quite
                                             literally what we pay them for.</p>
                                     </div>
                                 </div>
@@ -192,7 +232,13 @@
 
     </main>
     <footer>
-
+        <section style="height:300px" class="mt-5  d-flex align-items-center justify-content-center">
+            <div>
+              <h1 >SUBSCRIBE TO OUR NEWSLETTER</h1>
+            <input style="padding: 15px 150px; border-radius: 10px; color: #363958;" type="email" placeholder="Enter your email adderss">
+            <button style="padding: 17px 30px; border-radius: 10px; color: #363958;" class="btn btn-outline-info">SUBSCRIBE</button>
+          </div>
+          </section>
     </footer>
     <script src="js/bootstrap.min.js"></script>
 </body>
